@@ -320,10 +320,10 @@ header {
 }
 
 .slider__img {
+  display: block;
   width: 100%;
   object-fit: contain;
   height: 100%;
-  display: block;
 }
 
 .footer__contacts {
