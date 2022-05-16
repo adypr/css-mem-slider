@@ -121,18 +121,13 @@ header {
   grid-row: 2 / 3;
 }
 
-@media (max-width: 1279.98px) {
-  .slider__buttons {
-    margin-right: 20%;
-    margin-left: 20%;
-  }
-}
-
 @media (max-width: 767.98px) {
   .slider__buttons {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     padding-right: 0;
+    margin-right: 20%;
+    margin-left: 20%;
   }
 }
 
@@ -272,8 +267,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3.3vh;
-  height: 3.3vh;
+  width: 4.5vh;
+  height: 4.5vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -320,10 +315,10 @@ header {
 }
 
 .slider__img {
-  display: block;
   width: 100%;
   object-fit: contain;
   height: 100%;
+  display: block;
 }
 
 .footer__contacts {
